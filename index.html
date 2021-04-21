@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobag</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.jpg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar-example" class="navbar navbar-expand-md px-4 py-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" translate="no">Jobag</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="navbar-toggler-icon"></div>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <ul>
+                    <li><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                    <li><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li><a class="nav-link" href="#services">Servicios</a></li>
+                    <li><a class="nav-link" href="#gallery">Galería</a></li>
+                    <li><a class="nav-link" href="#plans">Planes</a></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <section class="main-section">
+        <div class="main-section-text" data-aos="zoom-out">
+            <h1>Encuentra el empleo que<br>tanto buscabas!</h1>
+            <button>Ingresar</button>
+        </div>
+    </section>
+    <section class="about-section" id="about" data-bs-spy="scroll" data-bs-target="#navbar-example">
+        <h1 class="">Nosotros</h1>
+        <div class="row about-section-container container">
+            <div class="about-section-container-img col-md-12 col-lg-6" data-aos="fade-right">
+                <img src="images/logo.jpg" alt="">
+            </div>
+            <div class="about-section-container-text col-md-12 col-lg-6" data-aos="fade-left">
+                <p>Somos un grupo de jóvenes enfocados en mejorar la empleabilidad en el Perú, 
+                    como intermediario entre los empleadores y postulantes. Brindamos un automatización 
+                    en el proceso de selección.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section class="services" id="services" data-bs-spy="scroll" data-bs-target="#navbar-example">
+        <h1>Servicios</h1>
+        <div class="row container py-5">
+            <div class="col-md-12 col-lg-4">
+                <div class="services-card" data-aos="zoom-out">
+                    <div class="services-card-icon">
+                        <img src="images/portfolio.svg" alt="">
+                    </div>
+                    <h2>Búsqueda de Empleo</h2>
+                    <p>Busca tu trabajo ideal en nuestra plataforma</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="services-card" data-aos="zoom-out">
+                    <div class="services-card-icon reclutaciones">
+                        <img src="images/businessman.svg" alt="">
+                    </div>
+                    <h2>Reclutaciones</h2>
+                    <p>Busca a los mejores empleados para tu empresa</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="services-card" data-aos="zoom-out">
+                    <div class="services-card-icon">
+                        <img src="images/charla.svg" alt="">
+                    </div>
+                    <h2>Entrevistas Virtuales</h2>
+                    <p>Accede a entrevistas directas con el empleador</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="plans" id="plans" data-bs-spy="scroll" data-bs-target="#navbar-example">
+        <h1>Planes</h1>
+        <div class="row container py-5">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="plans-card" data-aos="zoom-out">
+                    <div class="plans-card-title">
+                        <h2><strong>Basic</strong></h2>
+                        <h2>Gratuito</h2>
+                    </div>
+                    <div class="plans-card-features">
+                        <ul>
+                            <li><img src="images/check.svg" alt="">Creación, actualización
+                            y seguimiento de las reservas.</li>
+                            <li><img src="images/check.svg" alt="">Acceso a videoconferencias</li>
+                            <li><img src="images/check.svg" alt="">Proceso automático de toma
+                            de asistencia.</li>
+                        </ul>
+                    </div>
+                    <button>Más información</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="plans-card" data-aos="zoom-out">
+                    <div class="plans-card-title">
+                        <h2><strong>Pro</strong></h2>
+                        <h2>Ilimitado</h2>
+                    </div>
+                    <div class="plans-card-features">
+                        <ul>
+                            <li><img src="images/check.svg" alt="">Funcionalidades básicas incluidas.</li>
+                            <li><img src="images/check.svg" alt="">Seguimiento del rendimiento
+                            de los docentes.</li>
+                            <li><img src="images/check.svg" alt="">Información estadística relacionada
+                            a una materia.</li>
+                        </ul>
+                    </div>
+                    <button>Más información</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery" data-bs-spy="scroll" data-bs-target="#navbar-example">
+        <h1>Galería</h1>
+        <div class="row container py-5">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="gallery-card" data-aos="zoom-out">
+                    <img src="images/Home Estudiante.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12col-md-12 col-lg-6">
+                <div class="gallery-card" data-aos="zoom-out">
+                    <img src="images/Mis postulaciones.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="gallery-card" data-aos="zoom-out">
+                    <img src="images/Elegir postulante.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="gallery-card" data-aos="zoom-out">
+                    <img src="images/Creacion Entrevista.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" >
+        <div class="row">
+            <div class="col-lg-3 about-footer">
+                <h4>Sobre Nosotros</h4>
+                <p>Aplicación web enfocada a mejorar la empleabilidad en el Perú.</p>
+            </div>
+            <div class="col-lg-3 list-footer justify-content-center">
+                <h4>Listas</h4>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">NOSOTROS</a> </li>
+                    <li><a href="">SERVICIOS</a></li>
+                    <li><a href="">GALERÍA</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 social-media">
+                <h4>Redes Sociales</h4>
+                <ul>
+                    <li>
+                        <img src="images/facebook.svg" alt="">
+                        <a href="https://www.facebook.com/Study-Desk-106809784874712" target="_blank">Jobag</a>
+                    </li>
+                    <li>
+                        <img src="images/instagram.svg" alt="">
+                        <a href="https://www.instagram.com/studydeskupc/" target="_blank">Jobag</a>
+                    </li>
+                    <li>
+                        <img src="images/twitter.svg" alt="">
+                        <a href="">
+                            <a href="" target="_blank">Jobag</a>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 footer-logo">
+                <h1>Jobag</h1>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

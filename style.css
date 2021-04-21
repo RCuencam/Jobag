@@ -1,0 +1,473 @@
+/*----------------NAVBAR*/
+.navbar
+{
+    font-size: 1.4em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#1955AE;
+}
+.navbar a
+{
+    color: #1955AE;
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-size: 1.4em !important;
+}
+.navbar-toggler-icon
+{
+    background: url("images/menu.svg");
+}
+
+
+.navbar-nav ul
+{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav ul li
+{
+    transition: 500ms all;
+    margin: 0 3px;
+}
+.nav-link
+{
+    padding: 0;
+}
+.navbar-nav ul li:hover
+{
+    
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:767px)
+{
+    .navbar-nav ul
+    {
+        flex-direction: column;
+    }
+}
+
+/*----------------MAIN SECTION*/
+
+.main-section
+{
+    height: 800px;
+    background-image: url("images/main-section.jpeg");
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+.main-section-text
+{
+    margin-top: -150px;
+}
+.main-section-text h1
+{
+    font-size: 3.5em;
+    font-weight: 700;
+    color:  white;
+    text-shadow: 1px 1px 2px black;
+}
+.main-section-text button
+{
+    margin-top: 20px;
+    border: 0;
+    background: #1955AE;
+    border: 2px solid #1955AE;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1.3em;
+    transition: 500ms all;
+}
+.main-section-text button:hover
+{
+    background: none;
+    border: 2px solid white;
+}
+
+@media screen and (max-width:768px)
+{
+    .main-section
+    {
+        padding: 20px;
+        justify-content: center;
+        height: 700px;
+    }
+    .main-section-text
+    {
+        text-align: center;
+    }
+    .main-section-text h1
+    {
+        font-size: 3em;
+    }
+    .main-section-text button
+    {
+        text-align: center;
+    }
+}
+
+/*----------------ABOUT*/
+
+.about-section
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.about-section h1
+{
+    font-size: 3.5em;
+    text-align: center;
+    color: #1955AE;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.about-section-container
+{
+    margin: 0 auto !important;
+}
+.about-section-container-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-section-container img
+{
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+}
+.about-section-container-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.about-section-container-text p
+{
+    font-size: 1.5em;
+    margin: auto 0;
+    
+}
+
+@media screen and (max-width:768px)
+{
+    .about-section-container-text p
+    {
+        font-size: 1.1em;
+        text-align: center;
+    }
+}
+
+/*----------------SERVICES*/
+.services h1
+{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 80px 0 50px;
+    color: #1955AE;
+}
+.services .row
+{
+    margin: 0 auto;
+}
+
+.services-card
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-card-icon
+{
+    width: 110px;
+    height: 110px;
+    border: 2px solid #1955AE;
+    padding:20px;
+    border-radius: 50%;
+}
+.services-card-icon img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.services-card h2
+{
+    margin: 20px 0;
+    color: #1955AE;
+}
+.services-card p
+{
+    width: 80%;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .services-card
+    {
+        margin: 30px 0;
+    }
+}
+/*----------------------------GALLERY*/
+.gallery h1
+{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 80px 0 50px;
+    color: #1955AE;
+}
+.gallery .row
+{
+    margin: 0 auto;
+}
+.gallery-card
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.gallery-card img
+{
+    width: 500px;
+    height: 500px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+}
+@media screen and (max-width:1200px)
+{
+    .gallery-card img
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:1024px)
+{
+    .gallery-card img
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:990px)
+{
+    .gallery-card img
+    {
+        width: 500px;
+        height: 500px;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .gallery-card img
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .gallery-card img
+    {
+        width: 300px;
+        height: 300px;
+    }
+}
+/*-------------------------PLANS*/
+.plans
+{
+    background: rgb(124,159,209);
+    background: linear-gradient(90deg, rgba(124,159,209,1) 0%, rgba(25,85,174,1) 100%);
+    padding:80px 0;
+}
+.plans h1
+{
+    text-align: center;
+    font-size: 3.5em;
+    margin: 0px 0 70px;
+    color: white;
+}
+.plans .row
+{
+    margin: 0 auto;
+}
+.plans-card
+{
+    background: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0 30px;
+}
+.plans-card-title
+{
+    width: 70%;
+    text-align: left;
+    color: #1955AE;
+}
+
+.plans-card-title h2
+{
+    font-size: 3em;
+}
+.plans-card-features
+{
+    width: 70%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.plans-card-features ul
+{
+    list-style: none;
+    padding: 0;
+}
+.plans-card-features ul li img
+{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.plans-card-features ul li
+{
+    font-size: 1.4em;
+}
+.plans-card button
+{
+    width: 70%;
+    border: 1px solid #1955AE;
+    border-radius: 5px;
+    padding: 8px 5px;
+    background: none;
+    color: #1955AE;
+    font-size: 1.5em;
+}
+@media screen and (max-width:1000px)
+{
+    .plans-card
+    {
+        margin: 50px 0;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .plans-card-title
+    {
+        text-align: center;
+    }
+    .plans-card-features
+    {
+        width: 80%;
+        margin-top: 40px;
+    }
+    .plans-card-features ul li
+    {
+        font-size: 1.2em;
+    }
+    .plans-card
+    {
+        height: 600px;
+    }
+    .plans-card button
+    {
+        font-size: 1.3em;
+    }
+}
+
+/*-------------------------FOOTER*/
+
+.footer
+{
+    margin-top: 100px;
+    background: #1955AE;
+    color: white;
+    padding:20px 0;
+}
+.footer .row
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.list-footer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.list-footer ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.social-media ul
+{
+    padding: 0;
+}
+.social-media ul li
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.social-media ul li img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.social-media ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.footer-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .list-footer
+    {
+        display: none;
+    }
+    .about-footer
+    {
+        display: none;
+    }
+
+}
+@media screen and (max-width:1024px)
+{
+    .list-footer
+    {
+        display: none;
+    }
+    .about-footer
+    {
+        display: none;
+    }
+}
