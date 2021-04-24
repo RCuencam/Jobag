@@ -315,7 +315,7 @@
     justify-content: center;
     align-items: center;
     height: 700px;
-    margin: 0 30px;
+    margin: 30px;
 }
 .plans-card-title
 {
@@ -441,6 +441,10 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
+}
+.about-footer
+{
+    font-size: .8em;
 }
 .footer-logo
 {
