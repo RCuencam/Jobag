@@ -401,7 +401,11 @@
         font-size: 2.3em;
     }
 }
-
+/*-------------------------VIDEOS*/
+.title_video{
+    font-size: 2.3em;
+    color: #1955AE;
+}
 /*-------------------------FOOTER*/
 
 .footer
