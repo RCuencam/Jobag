@@ -90,7 +90,10 @@
     background: none;
     border: 2px solid white;
 }
-
+.main-section-text button a{
+    color: white;
+    text-decoration: none;
+}
 @media screen and (max-width:768px)
 {
     .main-section
